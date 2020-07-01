@@ -1,0 +1,251 @@
+/*TEXT COLOR*/
+.text-greenyellow {
+    color: greenyellow;
+}
+
+.text-goldnrod {
+    color: goldenrod;
+}
+
+.text-salmon {
+    color: salmon;
+}
+
+.text-purple {
+    color: purple;
+}
+
+.text-blue {
+    color: blue;
+}
+/* Align */
+.txt-center {text-align: center;}
+/********************************************************/
+
+
+
+/*BORDER*/
+.bdr-greenyellow {
+    border: solid 2px greenyellow
+}
+
+.bdr-goldenrod {
+    border: solid 2px goldenrod
+}
+
+.bdr-salmon {
+    border: solid 2px salmon
+}
+
+.bdr-purple {
+    border: solid 2px purple
+}
+
+.bdr-blue {
+    border: solid 2px blue
+}
+
+/********************************************************/
+
+/*BACKGROUND*/
+.bg-greenyellow {
+    background-color: greenyellow
+}
+
+.bg-golden {
+    background-color: goldenrod
+}
+
+.bg-salmon {
+    background-color: salmon
+}
+
+.bg-purple {
+    background-color: purple
+}
+
+.bg-blue {
+    background-color: blue
+}
+/********************************************************/
+
+/*BODY*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+li {
+    list-style: none;
+}
+
+header {
+    margin-top: 10vh;
+}
+/********************************************************/
+
+/* / BODY*/
+
+/* 
+* CONT
+***************************/
+.cont {
+    width: auto;
+    height: 200px;
+    display: flex;
+
+    justify-content: center;
+
+}
+
+.cont-full {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.cont-col {
+    width: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px;
+}
+
+.cont-flx-space-around {
+    justify-content: space-around
+}
+.content-center {
+    display: flex;
+    justify-content: center;
+}
+.row {
+    display: flex;
+}
+.between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.full {width: 100%}
+/********************************************************/
+
+/* / CONT*/
+
+/*
+ * NAVBAR
+ **************************/
+
+.title-nav {
+    margin: 0 15px;
+}
+
+.item {
+    padding: 5px;
+    margin: 5px;
+}
+
+.navbar-nav {
+    display: flex;
+}
+
+h2 {
+    color:yellow;
+    text-align: center;
+    margin: 100px;
+}
+/********************************************************/
+
+/* / NAVBAR*/
+
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+/*CONTACT
+*************************/
+
+.contact {
+
+    width: auto;
+    display: flex;
+}
+
+
+
+h3 {
+    
+    text-align: center;
+    color: purple;
+    margin: 200px;
+    
+}
+
+.contact-form {
+    margin: 200px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+input {
+
+    display: flex;
+    margin: 0px 5px 0px 5px;
+    padding: 0px 5px 0px 5px;
+
+}
+
+label {
+    display: inline-block;
+    margin: 50px;
+}
+
+.btn {
+    background-color: purple;
+    color: white;
+    margin: 50px;
+    padding: 10px;
+    
+    
+}
+/********************************************************/
+
+/* / CONTACT*/
+
+
+
+/*FOOTER
+****************************/
+
+.cont-col {
+    width: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px;
+    
+}
+
+.cont-flx-space-around {
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.row {
+    display: flex;
+}
+
+.between {
+    display: flex;
+    justify-content: space-between;
+}
+
+/********************************************************/
+
+.w-50 {max-width: 50%}
